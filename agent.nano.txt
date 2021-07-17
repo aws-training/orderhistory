@@ -8,8 +8,8 @@
 
   "flows": [
     {
-      "filePattern": "/var/log/cadabra/*.log",
-      "kinesisStream": "CadabraOrders",
+      "filePattern": "/var/log/purchaselogs/*.log",
+      "kinesisStream": "Orders",
       "partitionKeyOption": "RANDOM",
       "dataProcessingOptions": [
          {
